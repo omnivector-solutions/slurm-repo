@@ -1,8 +1,8 @@
 # Slurm RPM Repository
 
-## Slurm 23.02.6
+## Slurm 25.05.1
 
-Set the slurm repo file on CentOS 7:
+Set the slurm repo file on Rocky Linux 9:
 
 ```
 sudo vi /etc/yum.repos.d/slurm.repo
@@ -11,9 +11,9 @@ sudo vi /etc/yum.repos.d/slurm.repo
 Adding:
 
 ```
-[slurm-23.02.6]
+[slurm-25.05.1]
 name=Slurm RPM Repository
-baseurl=https://omnivector-solutions.github.io/slurm-repo/23.02.6/centos7/x86_64
+baseurl=https://omnivector-solutions.github.io/slurm-repo/25.05.1/rocky9/x86_64
 enabled=1
 gpgcheck=0
 ```
